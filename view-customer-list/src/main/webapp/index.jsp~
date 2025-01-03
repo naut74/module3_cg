@@ -62,7 +62,7 @@
         <tr>
             <td>${customer.id}</td>
             <td>${customer.name}</td>
-            <td>${customer.dayOfBirth}</td>
+            <td>${customer.dob}</td>
             <td>${customer.address}</td>
             <td><img src="${customer.image}" alt="${customer.name}" /></td>
         </tr>

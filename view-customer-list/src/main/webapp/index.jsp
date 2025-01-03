@@ -64,7 +64,7 @@
             <td>${customer.name}</td>
             <td>${customer.dob}</td>
             <td>${customer.address}</td>
-            <td><img src="${customer.image}" alt="${customer.name}" /></td>
+            <td><img src="images/${customer.image}" alt="${customer.name}" /></td>
         </tr>
     </c:forEach>
     </tbody>
